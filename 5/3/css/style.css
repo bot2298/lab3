@@ -5,14 +5,16 @@
 
 body {
 	font-family: Arial;	
+	font-weight: bold;
 }
 table{
 	border: 5px solid #e5e5e5;
 	border-bottom: 5px solid #1fbd1f; 
 	border-top: 5px solid #1fbd1f;
+	border-collapse: collapse;
 }
 .tabl{
-	margin: 0 auto;
+	margin: 0;
 	width: 300px;
 }
 td{
