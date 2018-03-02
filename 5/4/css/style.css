@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+body {
+	font-family: Arial;	
+}
+table{
+	border-collapse: collapse;
+}
+.name{
+	color: #fff;
+	font-size: 35px;	
+}
+.tabl{
+	margin: 0 auto;
+	padding: 25px;
+	width: 300px;
+	float: left;
+}
+td{
+	width: 300px;
+	height: 30px;
+	padding: 5px 0;
+	text-align: center;
+	color: #6b6b6b;	
+}
+
+.st1{		
+	font-weight: bold;	
+}
+
+button{
+	font-size: 20px;
+	padding: 10px 25px;
+	margin: 15px;
+	color: #fff;	
+}
+.gr{
+	border: 1px solid #1fbd1f;
+	border-bottom: 10px solid #1fbd1f; 
+}
+.namegr{
+	background:#1fbd1f;
+	border: 1px solid #1fbd1f;	
+}
+.st2gr{
+	border-bottom: 20px solid #13a413; 
+	}
+.butgr{
+	border:2px solid #1fbd1f;
+	background:#1fbd1f;	
+}
+
+.or{
+	border: 1px solid orange;
+	border-bottom: 10px solid orange; 
+}
+.nameor{
+	background:orange;
+	border: 1px solid orange;	
+}
+.st2or{
+	border-bottom: 20px solid #d48900; 
+	}
+.butor{
+	border:2px solid orange;
+	background:orange;	
+}
+
+.rd{
+	border: 1px solid red;
+	border-bottom: 10px solid red; 
+}
+.namerd{
+	background:red;
+	border: 1px solid red;	
+}
+.st2rd{
+	border-bottom: 20px solid #ab0000; 
+	}
+.butrd{
+	border:2px solid red;
+	background:red;	
+}
+.line{
+	width: 250px;
+	margin: 0 auto;
+}
+.strd{
+	border-top: 2px dotted red;	
+}
+.stor{
+	border-top: 2px dotted orange;	
+}
+.stgr{
+	border-top: 2px dotted #1fbd1f;	
+}
+
+
