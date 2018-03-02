@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #271e20;
+	
+}
+.full>div{
+	height: 350px;
+	
+	
+}
+.full {
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 900px;
+	height: 350px;
+	background: #fff;
+	
+}
+.left{
+	background: url(../jpg/burgers.jpg) no-repeat ;
+	background-size: cover;
+	background-position: center;
+	width: 35%;
+	float: left;
+	
+	
+}
+.promo{
+	position: relative;
+	background: #000;
+	color: #fff;
+	top: 120px;
+	right: 10px;	
+	text-align: center;
+}
+.promo h3{
+	font-size: 50px;
+}
+span{
+	color: yellow;
+}
+.right{
+	padding: 15px 0;
+	width: 65%;
+	text-align: center;
+	float: left;
+	
+}
+.menu{
+	width: 50%;
+	float: left;
+	padding-top: 35px;
+	
+	
+}
+.menu:after{
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: #e5e5e5;
+	transform: rotate(45deg);
+	margin-top: -6px;
+	
+}
+hr{
+	margin-top: 10px;
+	border: none;
+	background: #e5e5e5;
+	color: #e5e5e5;
+	height: 3px;
+	width: 200px;
+	position: relative;
+	left: 50px
+}
+h3{
+	font-size: 25px;
+}
+.menu h4{
+	
+	font-size: 20px;
+}
+.menu p{
+	font-family: arial;
+	color: #999;	
+	
+}
+.butt{
+	position: relative;
+	top: 50px;
+	left:  215px;
+}
+.butt button{
+	padding: 15px 25px;
+  font-size:20px;
+	background: #000;
+	color: #fff;
+	border: #000;
+	
+		
+}
+.clear{
+	clear: both;
+}
